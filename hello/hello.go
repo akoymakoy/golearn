@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"golearn-pk1/stringutil"
+)
 
 func main() {
-	fmt.Printf("hello, world\n")
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
